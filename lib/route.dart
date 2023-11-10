@@ -17,6 +17,10 @@ import 'screens/login/login_fingerprint_screen.dart';
 import 'screens/notifiaction/notification_screen.dart';
 import 'screens/profile/profile_screen.dart';
 import 'screens/settings/settings_screens.dart';
+import 'screens/signUp/select_account_type.dart';
+import 'screens/signUp/sign_up_business.dart';
+import 'screens/signUp/sign_up_screen.dart';
+import 'screens/signUp/you_are_all_set.dart';
 import 'screens/splashScreen/second_splash_screen.dart';
 import 'screens/transaction/transaction_details_screen.dart';
 import 'screens/virtualAccount/virtual_account_screen.dart';
@@ -28,6 +32,10 @@ final Map<String, WidgetBuilder> routes = {
   '/onboardingScreen': (context) => const OnboardingScreen(),
   '/loginScreen': (context) => const LoginScreen(),
   '/loginFingerprint': (context) => const LoginFingerprintScreen(),
+  '/signupScreen': (context) => const SignUpScreen(),
+  '/signupBusiness': (context) => const SignUpBusiness(),
+  '/selectAccountType': (context) => const SelectAccountType(),
+  '/youAreAllSet': (context) => const YouAreAllSet(),
   '/dashboard': (context) => const Dashboard(),
   '/transaction': (context) => const TransactionScreen(),
   '/settings': (context) => const SettingsScreen(),

@@ -26,6 +26,10 @@ class MyApp extends StatelessWidget {
       routes: routes,
       // initialRoute: '/loginScreen',
       // initialRoute: '/loginFingerprint',
+      // initialRoute: '/signupScreen',
+      // initialRoute: '/signupBusiness',
+      initialRoute: '/selectAccountType',
+      // initialRoute: '/youAreAllSet',
       // initialRoute: '/complianceContact',
       // initialRoute: '/dashboard',
       // initialRoute: '/businessInfo',
@@ -40,7 +44,7 @@ class MyApp extends StatelessWidget {
       // initialRoute: '/security',
       // initialRoute: '/changePassword',
       // initialRoute: '/helpAndSupport',
-      initialRoute: '/virtualAccount',
+      // initialRoute: '/virtualAccount',
     );
   }
 }
